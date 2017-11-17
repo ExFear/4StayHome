@@ -1,0 +1,998 @@
+/*Fonts*/
+
+/* Font Family - Lato */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/latoregular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latoregular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latoregular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latoregular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latoregular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Bold*/
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('../fonts/latobold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latobold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latobold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latobold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latobold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato SemiBold*/
+@font-face {
+  font-family: 'Lato SemiBold';
+  src: url('../fonts/latosemibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latosemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latosemibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latosemibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latosemibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Italic*/
+@font-face {
+  font-family: 'Lato Italic';
+  src: url('../fonts/latoitalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latoitalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latoitalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latoitalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latoitalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Light*/
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../fonts/latolight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latolight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latolight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latolight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latolight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Medium*/
+@font-face {
+  font-family: 'Lato Medium';
+  src: url('../fonts/latomedium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latomedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latomedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latomedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latomedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Black*/
+@font-face {
+  font-family: 'Lato Black';
+  src: url('../fonts/latoblack.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latoblack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latoblack.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latoblack.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latoblack.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Myriad Pro*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/myriadpro.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/myriadpro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/myriadpro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/myriadpro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/myriadpro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*Teks*/
+
+p {
+  font-size: 14px;
+  line-height: 22.4px;
+  letter-spacing: 0;
+  color: #6c7279; }
+
+h1 {
+  font-size: 65px;
+  color: #2d3033; }
+
+h2 {
+  font-size: 40px;
+  color: #2d3033; }
+
+h3 {
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 300; }
+
+h4 {
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: 400; }
+
+h5 {
+  font-family: "Lato Bold", Fallback, sans-serif;
+  font-size: 14px;
+  color: #2d3033;
+  text-transform: uppercase;
+}
+
+/*Header*/
+
+.input-group{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    width: 90%;
+}
+
+.input-group-addon{
+    background-color: #fff;
+}
+
+.form-control{
+    border-left: 0;
+}
+
+.nav-link{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-right: 60px;
+}
+
+.btn-secondary{
+    color: #000;
+    background-color: #fff;
+    border-color: #ced4da;
+    border-left: 0;
+}
+
+.btn-outline-success{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    color: #ed0d7d;
+    text-transform: uppercase;
+    width: 155px;
+    height: 40px;
+    border-color: #ed0d7d;
+    margin-right: 50px;
+}
+
+.logo{
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.calender{
+    border-right: 0;
+}
+
+.bed{
+    border-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.move{
+    border-left: 0;
+}
+
+/*Body*/
+
+.banner{
+    background-image: url(../images/bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 452px;
+    padding-bottom: 20px;
+}
+
+.photo{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 230px;
+    left: 10px;
+    width: 170px;
+}
+
+.street{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 180px;
+    left: 10px;
+    width: 170px;
+}
+
+.show{
+    margin-right: 15px;
+}
+
+.info{
+    height: auto;
+}
+
+.info-room{
+    width: 80%;
+}
+
+.user{
+    margin-top: 10px;
+}
+
+.user p{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+}
+
+.date{
+    margin-left: 40px;
+}
+
+.date h5{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    color: #b0b0b0;
+    letter-spacing: 0.04em;
+    margin-top: 15px;
+}
+
+.date p{
+    font-family: "Lato SemiBold", fallback sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.min{
+    margin-left: 20px;
+}
+
+.min h5{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    color: #b0b0b0;
+    letter-spacing: 0.04em;
+    margin-top: 15px;
+}
+
+.min h1{
+    font-family: "Lato SemiBold", fallback sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.min p{
+    font-family: "Lato SemiBold", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+.price{
+    margin-left: 20px;
+}
+
+.price h5{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 0.01em;
+    margin-top: 15px;
+}
+
+.price p{
+    font-family: "Lato SemiBold", fallback sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.card-header{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.share{
+    padding-left: 20px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.share li{
+    padding-right: 
+        7px;
+}
+
+.card{
+    position: relative;
+    top: -230px;
+}
+
+.card-footer{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-footer a{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 14px;
+    color: #ed0d7d;
+    background-color: #fff;
+}
+
+.move p{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: #000;
+}
+
+.calender-1{
+    border: 1px solid #A9A9A9;
+}
+
+.calender-text-1{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.calender-text-2{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.in{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.form-control-in{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 100%;
+}
+
+.out{
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.form-control-out{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+}
+
+.bed-form{
+    padding-right: 0;
+}
+
+.btn-book{
+    margin-top: 15px;
+    width: 97%;
+    background-color: #ed0d7d;
+    border-color: #ed0d7d;
+    text-transform: uppercase;
+}
+
+.btn-message{
+    margin-top: -20px;
+    width: 97%;
+    border-color: #ed0d7d;
+    color: #ed0d7d;
+    text-transform: uppercase;
+}
+
+.change{
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.img-view{
+    margin-right: 10px;
+}
+
+.img-request{
+    margin-right: 14px;
+}
+
+.view{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.request{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.summary h1{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+}
+
+.bed-available h5{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 28px;
+    margin-bottom: 19px;
+}
+
+.img-apartment{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.img-private{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.img-bath{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px; 
+}
+
+.img-mixed{
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.nearby-place h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 100px;
+    text-transform: none;
+}
+
+.nearby-american{
+    max-width: 22%;
+    margin-top: 50px;
+}
+
+.nearby-george{
+    max-width: 30%;
+    margin-top: 50px;
+}
+
+.nearby-mumbay{
+    max-width: 27%;
+    margin-top: 50px;
+}
+
+.nearby-nova{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.badge-primary {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #000;
+}
+
+.american{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.george{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mumbay{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nova{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.025em; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.description h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 100px;
+    text-transform: none;
+}
+
+.description p{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+.description-text{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.property h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+.property-a{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.property-b{
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.property-c{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rules h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 70px;
+    text-transform: none;
+}
+
+.rules-a{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.host h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+.img-host{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.respon{
+    margin-left: 15px;
+}
+
+.btn-host{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    color: #ed0d7d;
+    text-transform: uppercase;
+    border-color: #ed0d7d;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.host-info h1{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+}
+
+.host-info h5{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+}
+
+.host-info p{
+    font-family: "Lato Light", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+.host-info p.verifications{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.host-badge{
+    color: #ed0d7d;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #ed0d7d;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 27px;
+}
+
+.text-host{
+    width: 110%;
+}
+
+.share-host{
+    padding-left: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.share-host li{
+    padding-right: 20px;
+}
+
+.reviews h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+.overall{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.star-1{
+    margin-top: 38px;
+}
+
+.star-a{
+    color: #ffcc00;
+}
+
+.star-a-end{
+    color: darkgray;
+}
+
+.star-2-up{
+    margin-top: 38px;
+}
+
+.accuracy{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.cleanliness{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-left: 25px;
+}
+
+.img-slider{
+    padding-right: 15px;
+}
+
+.host{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-left: 25px;
+}
+
+.communication{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.location{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-left: 25px;
+}
+
+.value{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    margin-left: 25px;
+}
+
+.img-share{
+    margin-bottom: 2px;
+}
+
+.share-2 h5{
+    font-family: "Lato Semibold", fallback sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #ff6000;
+    margin-left: 50px;
+}    
+
+.share-2 p{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #ff6000;
+    text-transform: none;
+    margin-left: 32px;
+}
+
+.earn{
+    font-family: "Lato Semibold", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.img-social-share{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.icon-share{
+    margin-right: 20px;
+    border: 1px solid #ed0d7d;
+}
+
+.user-james{
+    margin-top: 50px;
+}
+
+.user-james p{
+    font-family: "Lato",fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+
+.james{
+    margin-top: 5px;
+}
+
+.help{
+    margin-top: 50px;
+    float: right;
+}
+
+.help h5{
+    font-family: "Lato",fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: none;
+}
+
+.help p{
+    display: inline-flex;
+    font-family: "Lato",fallback sans-serif;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0.01em;
+    text-transform: none;
+}
+
+.help p.number{
+    color: #ed0d7d;
+    display: inline-flex;
+}
+
+.james-text{
+    margin-left: 127px;
+
+}
+
+.james-text p{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    width: 100%;
+}
+
+.james-2{
+    margin-top: 30px;
+}
+
+.pagination{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.page-item{
+    margin-right: 20px;
+}
+
+.page-item:first-child .page-link{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.page-item:last-child .page-link{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.page-link{
+     border-radius: 100%;
+    border-color: #6c7279;
+}
+
+.btn-view-all{
+    margin-left: 20px;
+}
+
+.embed-responsive{
+    width: 1050px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.location h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+.other-property h5{
+    font-family: "Lato Bold", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+.rating{
+    display: inline-block;
+    color: #ffcc00;
+}
+
+.viewed{
+    display: inline-block;
+}
+
+.star-slider{
+    display: inline-block;
+}
+
+.icon-slider{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 5px;
+    padding-left: 0;
+}
+
+.btn-outline-primary{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    width: 90px;
+    height: 30px;
+}
+
+.user-slide{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.review-slide{
+    margin-top: 15px;
+}
+
+.review-slide h5{
+    font-family: "Lato Black", fallback sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.014em;
+}
+
+.box-shadow{
+    box-shadow: 5px 9px 12.48px 3.52px rgba(0, 0, 0, 0.06);
+}
+
+.slider{
+    margin-bottom: 30px;
+}
+
+.listing{
+    height: auto;
+}
+
+.similiar h5{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 100px;
+}
+
+.similiar p{
+    font-family: "Lato", fallback sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.owl-carousel .owl-nav.disabled, 
+.owl-carousel .owl-dots.disabled{
+    display: inline-block;
+}
+
+.fa-angle-left{
+    position: absolute;
+    top: 113px;
+    left: -30px;
+}   
+
+.fa-angle-right{
+    position: absolute;
+    top: 113px;
+    right: -30px;
+}
